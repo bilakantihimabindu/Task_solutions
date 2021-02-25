@@ -1,0 +1,12 @@
+Q1. Given a string, find the first non-repeating character in it and return its index. if all characters are repeating then return -1. (characters may repeat any number of times in any order) 
+Ex: abc return a and its index is 0
+Ex: abca return b  index is 1
+Ex: abcab return c  index is 2
+Ex: abcabc return -1
+
+Q2). Write your code  that will count the number of words containing capital letters in a file (File contents you can Consider these 3 questions Iself as your input.
+Your code should work even if the file size is too big(like in GB’s,) to fit into memory. Later I will be running your code against a bigger file. Am looking for a optimized solution which should work smooth or any file size without impacting performance of you machine.
+
+
+Q3) Create a class called Employee which should have attributes like employee name, age, salary and email id. And a method to modify the employee name and email id.
+Create an instance of the above class and then take a copy of the instance and modify employee name to “TestName” and email id to Test.Name@emailid.com then print the object attributes of both instance using str() method.
