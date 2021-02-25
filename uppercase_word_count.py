@@ -4,7 +4,7 @@ def count_word(filename):
         text = f.read()        
         for word in text.split():
             i=0
-            print(word)
+            
             for character in word:
                 if character.isupper():
                     i+=1
