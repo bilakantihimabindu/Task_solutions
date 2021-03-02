@@ -14,8 +14,14 @@ def first_unique_char(input_string):
             return char,input_string.index(char)
     return -1
 
-input_string="abacb"
+try:
+    input_string="abcab"
+    if len(input_string) == 0:
+        print("Input string is empty. Please change the input string and execute")
+    else:
+        first_non_rep_char=first_unique_char(input_string)
+        print("First non-repetative char and its index :"+str(first_non_rep_char))
 
-first_non_rep_char=first_unique_char(input_string)
-print(first_non_rep_char)
+except Exception  as e:
+    print(e)
 
